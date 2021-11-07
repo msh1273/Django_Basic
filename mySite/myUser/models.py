@@ -19,3 +19,4 @@ class Myuser(models.Model):
     class Meta:
         db_table = 'django_myuser'
         verbose_name = '스크사용자'
+        verbose_name_plural = '스크사용자'
